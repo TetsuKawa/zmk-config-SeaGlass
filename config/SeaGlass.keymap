@@ -36,6 +36,16 @@
             bindings = <&kp TAB>;
             key-positions = <7 8>;
         };
+
+        lang1 {
+            bindings = <&kp LANG1>;
+            key-positions = <11 12>;
+        };
+
+        lang2 {
+            bindings = <&kp LANG2>;
+            key-positions = <17 18>;
+        };
     };
 
     macros {
@@ -101,7 +111,7 @@
             >;
 
             sensor-bindings =
-                <&inc_dec_kp PAGE_UP PAGE_DOWN>,
+                <&encoder_msc_down_up>,
                 <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
