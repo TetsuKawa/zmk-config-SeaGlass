@@ -84,7 +84,7 @@
         irq-gpios = <&gpio1 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         snipe-layers = <1>;
         // automouse-layer = <4>; //ここをコメントアウトするとオートマウスレイヤーがオフになる
-        scroll-layers = <8>;
+        scroll-layers = <7>;
     };
 };
 
