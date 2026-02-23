@@ -2,6 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: tetsukawa
+      url-base: https://github.com/TetsuKawa
     - name: inorichi
       url-base: https://github.com/inorichi
     - name: caksoylar
@@ -10,8 +12,8 @@ manifest:
       url-base: https://github.com/4mplelab
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: v0.3
+      remote: tetsukawa
+      revision: tetsukawa-v0.3
       import: app/west.yml
     - name: zmk-pmw3610-driver
       remote: inorichi

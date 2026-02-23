@@ -96,6 +96,7 @@
         b-gpios = <&gpio1 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         steps = <24>;
         status = "disabled";
+        debounce-ms = <5>;
     };
 
 
@@ -105,6 +106,7 @@
         b-gpios = <&gpio1 12 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         steps = <24>;
         status = "disabled";
+        debounce-ms = <5>;
     };
 
     sensors: sensors {
